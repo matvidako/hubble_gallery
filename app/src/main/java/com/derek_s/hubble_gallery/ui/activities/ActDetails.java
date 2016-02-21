@@ -260,7 +260,6 @@ public class ActDetails extends ActBase implements ObservableScrollViewCallbacks
     }
 
     private void beautifyViews() {
-        tvBody.setTextIsSelectable(true);
         tvBody.setMovementMethod(LinkMovementMethod.getInstance());
 
         tvZeroStateInfo.setTypeface(FontFactory.getRegular(this));

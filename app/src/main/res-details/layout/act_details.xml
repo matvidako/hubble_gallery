@@ -67,7 +67,7 @@
                 android:visibility="invisible"
                 tools:visiblity="visible" />
 
-            <TextView
+            <com.derek_s.hubble_gallery.ui.widgets.SelectableTextView
                 android:id="@+id/tv_body"
                 style="@style/text_body1_dark"
                 android:layout_width="match_parent"
